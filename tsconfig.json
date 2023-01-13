@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "lib": ["esnext.asynciterable", "esnext", "DOM"],
+    "strict": true,
+    "jsx": "react-jsx",
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
