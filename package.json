@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@naporin0624/eslint-config": "^0.7.1",
+    "@resvg/resvg-js": "^2.2.0",
     "node-fetch": "^3.3.0",
     "node-fetch-polyfill": "^2.0.6",
     "react": "^18.2.0",

@@ -16,6 +16,5 @@
     "moduleResolution": "node",
     "outDir": "dist"
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "types"]
 }
