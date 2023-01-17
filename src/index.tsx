@@ -26,7 +26,7 @@ const main = async () => {
         height: 250,
       }}
     >
-      <p style={{ textTransform: "uppercase", fontSize: 24 }}>夜空にながれ星</p>
+      <p style={{ textTransform: "uppercase", fontSize: 24, fontFamily: "M PLUS 1p" }}>夜空にながれ星</p>
     </div>,
     {
       width: 500,
