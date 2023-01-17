@@ -1,0 +1,7 @@
+name = "lgtm"
+main = "src/worker.tsx"
+compatibility_date = "2023-01-17"
+
+rules = [
+  { type = "Data", globs = ["**/*.ttf", "**/*.otf"], fallthrough = true },
+]

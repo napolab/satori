@@ -12,3 +12,11 @@ declare module "satori/wasm" {
   export { init };
   export default satori;
 }
+
+declare module "*.wasm" {
+  export default ArrayBuffer;
+}
+
+declare module "*.ttf" {
+  export default ArrayBuffer;
+}
